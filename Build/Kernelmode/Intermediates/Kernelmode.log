@@ -1,0 +1,25 @@
+﻿  Building 'Kernelmode' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  CR3.c
+  Memory.c
+  Generating Code...
+  Compiling...
+  Entry.cpp
+  Generating Code...
+C:\Users\1\source\repos\Kernelmode\Kernelmode\Sourcecode\Entry.cpp(162,50): warning C4996: 'ExAllocatePool': ExAllocatePool is deprecated, use ExAllocatePool2.
+C:\Users\1\source\repos\Kernelmode\Kernelmode\Sourcecode\Entry.cpp(172,21): warning C4189: 'NonPaged': local variable is initialized but not referenced
+C:\Users\1\source\repos\Kernelmode\Kernelmode\Sourcecode\Entry.cpp(171,20): warning C4189: 'SizeInBytes': local variable is initialized but not referenced
+C:\Users\1\source\repos\Kernelmode\Kernelmode\Sourcecode\Entry.cpp(281,20): warning C4459: declaration of 'name' hides global declaration
+  C:\Users\1\source\repos\Kernelmode\Kernelmode\Sourcecode\Entry.cpp(7,16):
+  see declaration of 'name'
+  
+C:\Users\1\source\repos\Kernelmode\Kernelmode\Sourcecode\Entry.cpp(281,26): warning C4459: declaration of 'link' hides global declaration
+  C:\Users\1\source\repos\Kernelmode\Kernelmode\Sourcecode\Entry.cpp(7,22):
+  see declaration of 'link'
+  
+C:\Users\1\source\repos\Kernelmode\Kernelmode\Sourcecode\Entry.cpp(277,61): warning C4100: 'path': unreferenced formal parameter
+  Kernelmode.vcxproj -> C:\Users\1\source\repos\Kernelmode\Build\Kernelmode\Kernelmode.sys
+  Driver is 'Universal'.
+  Inf2Cat task was skipped as there were no inf files to process
+  
